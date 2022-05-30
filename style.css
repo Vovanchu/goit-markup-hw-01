@@ -190,6 +190,23 @@ a{
 }
 
 .peculiarities{
-    background-color: yellow;
     color: #212121;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 294px;
+    width: 1170px;
+    margin-left: 215px;
+    height: 100px;
+}
+
+.work{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin-top: 94px;
 }
