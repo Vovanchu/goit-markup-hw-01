@@ -155,10 +155,6 @@ a{
     line-height: 60px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 200px;
-    margin-right: 452px;
-    margin-left: 452px;
-    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -297,6 +293,20 @@ a{
     margin-top: 50px;
 }
 
+.footer{
+    background: #2F303A;
+}
+
 .li{
     display: block;
+}
+
+#address{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
 }
