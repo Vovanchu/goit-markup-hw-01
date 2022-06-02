@@ -328,16 +328,42 @@ ul.img-example > li{
     background: #2F303A;
 }
 
+.footer-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    margin-left: 200px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.footer-accent {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+        padding-top: 60px;
+        margin-bottom: 20px;
+}
+
+.footer-list{
+    padding-left: 165px;
+    margin-bottom: 60px;
+}
 .footer-address{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        /* or 171% */
-    
         letter-spacing: 0.03em;
-    
         color: #FFFFFF;
 }
 
