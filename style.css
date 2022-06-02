@@ -47,7 +47,7 @@ li{
     display: inline-flex;
 }
 
-.Studio{
+.studio{
     margin-right: 50px;
     font-family: 'Roboto';
     font-style: normal;
@@ -59,7 +59,7 @@ li{
     display: inline;
 }
 
-.Portfolio{
+.portfolio{
     margin-right: 50px;
         font-family: 'Roboto';
         font-style: normal;
@@ -67,19 +67,26 @@ li{
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        color: #212121;
         display: inline;
+ 
 }
 
-.Contacts{
+.portfolio-name{
+    color: #212121;
+}
+
+.contacts{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        color: #212121;
         display: inline;
+}
+
+.contacts-name{
+    color: #212121;
 }
 
 .mg-tel{
@@ -320,16 +327,43 @@ ul.img-example > li{
     background: #2F303A;
 }
 
-.li{
-    display: block;
-}
-
-#address{
+.footer-address{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
+        /* or 171% */
+    
         letter-spacing: 0.03em;
+    
         color: #FFFFFF;
 }
+
+.footer-gm{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+
+
