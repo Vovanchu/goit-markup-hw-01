@@ -3,6 +3,8 @@ body{
     font-family: 'Raleway', sans-serif;
     background: #E5E5E5;
     min-width: 1600px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 li{
@@ -141,18 +143,11 @@ li{
     width: 200px;
     height: 50px;
     border-color: transparent;
-}
-
-.button-txt{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 30px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
         color: #FFFFFF;
 }
 
@@ -246,16 +241,6 @@ ul.img-example > li{
     background-color: #F5F4FA;
 }
 
-.team-list{
-    background: #F5F4FA;
-    width: 1600px;
-    height: 648px;
-    content: "";
-        clear: both;
-        display: table;
-        margin-top: 94px;
-}
-
 .team-title{
     font-family: 'Roboto';
         font-style: normal;
@@ -265,63 +250,72 @@ ul.img-example > li{
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        padding-top: 94px;
 }
 
 #worker1-list{
-    background-color: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
+        display: flex;
+        margin-top: 50px;
+        padding-bottom: 94px;
+        margin-left: 215px;
 }
 
 .worker1{
+    margin-right: 30px;
     width: 270px;
-    height: 368px;
     background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
-        float: left;
-        margin-right: 30px;
-        margin-left: 215px;
-        margin-top: 50px;
 }
 
-.img-worker1{
-    background: url(4853.jpg);
-        border-radius: 0px;
-        width: 270px;
-        height: 260px;
+.worker-name{
+        font-family: 'Roboto';
+            font-style: normal;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+        
+            text-align: center;
+            letter-spacing: 0.03em;
+        
+            color: #212121;
 }
-/* 
+
+.worker-work{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+
 .worker2{
+    margin-right: 30px;
     width: 270px;
-    height: 368px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    float: left;
-    margin-right: 30px;
-    margin-top: 50px;
 }
 .worker3{
+    margin-right: 30px;
     width: 270px;
-    height: 368px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    float: left;
-    margin-right: 30px;
-    margin-top: 50px;
 }
 .worker4{
     width: 270px;
-    height: 368px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    float: left;
-    margin-top: 50px;
-} */
-/* 
+}
+
 .footer{
     background: #2F303A;
 }
@@ -338,4 +332,4 @@ ul.img-example > li{
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
-} */
+}
