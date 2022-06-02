@@ -11,16 +11,15 @@ li{
     list-style-type: none;
 }
 
+a{
+    text-decoration:none;
+}
+
 .header{
     padding-top: 20px;
     padding-bottom: 20px;
     background: #FFFFFF;
     display: inline-flex;
-}
-
-#webstudio{
-    margin-left: 215px;
-    margin-right: 93px;
 }
 
 .logo-link{
@@ -31,6 +30,8 @@ li{
         line-height: 31px;
         letter-spacing: 0.03em;
         color: #2196F3;
+        margin-left: 215px;
+        margin-right: 93px;
 }
 
 .logo-accent{
@@ -162,8 +163,14 @@ li{
     min-width: 1600px; 
 }
 
-#section2-header{
+.section2-header{
     text-align: center;
+}
+
+.section2-list{
+    display: flex;
+    min-width: 1300px;
+    margin-top: 100px;
 }
 
 .section2-title{
@@ -185,12 +192,6 @@ li{
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #757575;
-}
-
-#section2-list{
-    display: flex;
-    min-width: 1300px;
-    margin-top: 100px;
 }
 
 .warning{
@@ -260,7 +261,7 @@ ul.img-example > li{
         padding-top: 94px;
 }
 
-#worker1-list{
+.worker1-list{
         display: flex;
         margin-top: 50px;
         padding-bottom: 94px;
